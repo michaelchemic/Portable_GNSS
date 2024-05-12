@@ -1,0 +1,213 @@
+T0A7C 000:313.323   SEGGER J-Link V7.94 Log File
+T0A7C 000:316.002   DLL Compiled: Nov 29 2023 13:35:28
+T0A7C 000:316.011   Logging started @ 2024-01-14 03:48
+T0A7C 000:316.017   Process: E:\UV4\UV4.exe
+T0A7C 000:316.026 - 316.022ms
+T0A7C 000:316.036 JLINK_SetWarnOutHandler(...)
+T0A7C 000:316.042 - 0.007ms
+T0A7C 000:316.048 JLINK_OpenEx(...)
+T0A7C 000:317.879   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T0A7C 000:318.773   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T0A7C 000:320.443   Hardware: V7.00
+T0A7C 000:320.457   S/N: 20090929
+T0A7C 000:320.465   OEM: SEGGER
+T0A7C 000:320.473   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+T0A7C 000:320.897   Bootloader: (Could not read)
+T0A7C 000:321.681   TELNET listener socket opened on port 19021
+T0A7C 000:321.774   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T0A7C 000:321.919   WEBSRV Webserver running on local port 19080
+T0A7C 000:322.008   Looking for J-Link GUI Server exe at: E:\ARM\Segger\JLinkGUIServer.exe
+T0A7C 000:322.036   Looking for J-Link GUI Server exe at: E:\Program Files\SEGGER\JLink_V794\JLinkGUIServer.exe
+T0A7C 000:322.052   Forking J-Link GUI Server: E:\Program Files\SEGGER\JLink_V794\JLinkGUIServer.exe
+T0A7C 000:326.435   J-Link GUI Server info: "J-Link GUI server V7.94 "
+T0A7C 000:326.839 - 10.638ms returns "O.K."
+T0A7C 000:326.865 JLINK_GetEmuCaps()
+T0A7C 000:326.874 - 0.006ms returns 0x88EA5833
+T0A7C 000:326.890 JLINK_TIF_GetAvailable(...)
+T0A7C 000:327.154 - 0.263ms
+T0A7C 000:327.182 JLINK_SetErrorOutHandler(...)
+T0A7C 000:327.189 - 0.007ms
+T0A7C 000:327.476 JLINK_ExecCommand("ProjectFile = "C:\Users\24670\Desktop\New folder\MainControl\Project\USER\JLinkSettings.ini"", ...). 
+T0A7C 000:371.353   Ref file found at: E:\ARM\Segger\JLinkDevices.ref
+T0A7C 000:371.434   REF file references invalid XML file: E:\Program Files\SEGGER\JLink_V794\JLinkDevices.xml
+T0A7C 000:372.647 - 45.302ms returns 0x00
+T0A7C 000:372.718 JLINK_ExecCommand("Device = STM32F103ZE", ...). 
+T0A7C 000:373.529   Device "STM32F103ZE" selected.
+T0A7C 000:373.880 - 1.144ms returns 0x00
+T0A7C 000:373.893 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T0A7C 000:373.903 - 0.001ms returns 0x01
+T0A7C 000:373.911 JLINK_GetHardwareVersion()
+T0A7C 000:373.918 - 0.006ms returns 70000
+T0A7C 000:373.929 JLINK_GetDLLVersion()
+T0A7C 000:373.935 - 0.009ms returns 79400
+T0A7C 000:373.944 JLINK_GetOEMString(...)
+T0A7C 000:373.952 JLINK_GetFirmwareString(...)
+T0A7C 000:373.958 - 0.006ms
+T0A7C 000:373.969 JLINK_GetDLLVersion()
+T0A7C 000:373.975 - 0.006ms returns 79400
+T0A7C 000:373.983 JLINK_GetCompileDateTime()
+T0A7C 000:373.989 - 0.006ms
+T0A7C 000:373.998 JLINK_GetFirmwareString(...)
+T0A7C 000:374.004 - 0.006ms
+T0A7C 000:374.012 JLINK_GetHardwareVersion()
+T0A7C 000:374.018 - 0.006ms returns 70000
+T0A7C 000:374.026 JLINK_GetSN()
+T0A7C 000:374.033 - 0.006ms returns 20090929
+T0A7C 000:374.041 JLINK_GetOEMString(...)
+T0A7C 000:374.056 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T0A7C 000:374.605 - 0.548ms returns 0x00
+T0A7C 000:374.621 JLINK_HasError()
+T0A7C 000:374.641 JLINK_SetSpeed(5000)
+T0A7C 000:374.796 - 0.156ms
+T0A7C 000:375.198 JLINK_HasError()
+T0A7C 000:375.213 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T0A7C 000:375.222 - 0.009ms returns JLINKARM_RESET_TYPE_NORMAL
+T0A7C 000:375.230 JLINK_Reset()
+T0A7C 000:375.643   InitTarget() start
+T0A7C 000:375.658    J-Link Script File: Executing InitTarget()
+T0A7C 000:376.326   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 001:280.262   DAP initialized successfully.
+T0A7C 001:580.608   Can not attach to CPU. Trying connect under reset.
+T0A7C 001:631.113   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 002:535.796   DAP initialized successfully.
+T0A7C 002:836.115   Connecting to CPU via connect under reset failed.
+T0A7C 002:887.051   InitTarget() end - Took 2.51s
+T0A7C 002:887.284   Connect failed. Resetting via Reset pin and trying again.
+T0A7C 002:949.598   InitTarget() start
+T0A7C 002:949.619    J-Link Script File: Executing InitTarget()
+T0A7C 002:949.902   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 003:854.116   DAP initialized successfully.
+T0A7C 004:154.147   Can not attach to CPU. Trying connect under reset.
+T0A7C 004:205.199   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 005:110.482   DAP initialized successfully.
+T0A7C 005:410.266   Connecting to CPU via connect under reset failed.
+T0A7C 005:460.765   InitTarget() end - Took 2.51s
+T0A7C 005:460.789 - 5085.558ms
+T0A7C 005:460.813 JLINK_GetId()
+T0A7C 005:461.030   InitTarget() start
+T0A7C 005:461.042    J-Link Script File: Executing InitTarget()
+T0A7C 005:461.240   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 006:364.969   DAP initialized successfully.
+T0A7C 006:665.341   Can not attach to CPU. Trying connect under reset.
+T0A7C 006:716.202   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 007:620.717   DAP initialized successfully.
+T0A7C 007:921.298   Connecting to CPU via connect under reset failed.
+T0A7C 007:971.847   InitTarget() end - Took 2.51s
+T0A7C 007:971.872   Connect failed. Resetting via Reset pin and trying again.
+T0A7C 008:033.398   InitTarget() start
+T0A7C 008:033.420    J-Link Script File: Executing InitTarget()
+T0A7C 008:033.645   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 008:937.791   DAP initialized successfully.
+T0A7C 009:238.141   Can not attach to CPU. Trying connect under reset.
+T0A7C 009:289.000   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 010:194.014   DAP initialized successfully.
+T0A7C 010:494.431   Connecting to CPU via connect under reset failed.
+T0A7C 010:544.901   InitTarget() end - Took 2.51s
+T0A7C 010:544.924 - 5084.109ms returns 0x00000000
+T0A7C 010:544.949 JLINK_GetId()
+T0A7C 010:545.218   InitTarget() start
+T0A7C 010:545.230    J-Link Script File: Executing InitTarget()
+T0A7C 010:545.486   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 011:449.469   DAP initialized successfully.
+T0A7C 011:749.239   Can not attach to CPU. Trying connect under reset.
+T0A7C 011:800.237   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 012:705.156   DAP initialized successfully.
+T0A7C 013:005.839   Connecting to CPU via connect under reset failed.
+T0A7C 013:056.941   InitTarget() end - Took 2.51s
+T0A7C 013:056.965   Connect failed. Resetting via Reset pin and trying again.
+T0A7C 013:118.997   InitTarget() start
+T0A7C 013:119.023    J-Link Script File: Executing InitTarget()
+T0A7C 013:119.282   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 014:023.708   DAP initialized successfully.
+T0A7C 014:324.671   Can not attach to CPU. Trying connect under reset.
+T0A7C 014:376.010   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 015:280.834   DAP initialized successfully.
+T0A7C 015:581.549   Connecting to CPU via connect under reset failed.
+T0A7C 015:632.533   InitTarget() end - Took 2.51s
+T0A7C 015:632.557 - 5087.607ms returns 0x00000000
+T0A7C 015:645.713 JLINK_GetFirmwareString(...)
+T0A7C 015:645.731 - 0.017ms
+T0A7C 018:253.207 JLINK_GetDLLVersion()
+T0A7C 018:253.225 - 0.018ms returns 79400
+T0A7C 018:253.233 JLINK_CORE_GetFound()
+T0A7C 018:253.506   InitTarget() start
+T0A7C 018:253.518    J-Link Script File: Executing InitTarget()
+T0A7C 018:253.750   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 019:158.207   DAP initialized successfully.
+T0A7C 019:458.522   Can not attach to CPU. Trying connect under reset.
+T0A7C 019:509.550   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 020:413.945   DAP initialized successfully.
+T0A7C 020:714.222   Connecting to CPU via connect under reset failed.
+T0A7C 020:764.731   InitTarget() end - Took 2.51s
+T0A7C 020:764.754   Connect failed. Resetting via Reset pin and trying again.
+T0A7C 020:826.779   InitTarget() start
+T0A7C 020:826.798    J-Link Script File: Executing InitTarget()
+T0A7C 020:827.022   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 021:731.004   DAP initialized successfully.
+T0A7C 022:031.231   Can not attach to CPU. Trying connect under reset.
+T0A7C 022:082.371   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 022:986.791   DAP initialized successfully.
+T0A7C 023:287.119   Connecting to CPU via connect under reset failed.
+T0A7C 023:338.020   InitTarget() end - Took 2.51s
+T0A7C 023:338.044 - 5084.810ms returns 0x00
+T0A7C 023:338.896 JLINK_GetDebugInfo(0x100 = JLINKARM_ROM_TABLE_ADDR_INDEX)
+T0A7C 023:339.230   InitTarget() start
+T0A7C 023:339.247    J-Link Script File: Executing InitTarget()
+T0A7C 023:339.453   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 024:244.888   DAP initialized successfully.
+T0A7C 024:545.790   Can not attach to CPU. Trying connect under reset.
+T0A7C 024:596.727   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 025:500.824   DAP initialized successfully.
+T0A7C 025:801.447   Connecting to CPU via connect under reset failed.
+T0A7C 025:852.560   InitTarget() end - Took 2.51s
+T0A7C 025:852.585   Connect failed. Resetting via Reset pin and trying again.
+T0A7C 025:914.614   InitTarget() start
+T0A7C 025:914.638    J-Link Script File: Executing InitTarget()
+T0A7C 025:914.888   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 026:818.531   DAP initialized successfully.
+T0A7C 027:120.161   Can not attach to CPU. Trying connect under reset.
+T0A7C 027:171.477   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 028:075.826   DAP initialized successfully.
+T0A7C 028:376.113   Connecting to CPU via connect under reset failed.
+T0A7C 028:427.092   InitTarget() end - Took 2.51s
+T0A7C 028:427.127 - 5088.231ms returns -1
+T0A7C 028:427.553 JLINK_GetDebugInfo(0x01 = Unknown)
+T0A7C 028:427.806   InitTarget() start
+T0A7C 028:427.819    J-Link Script File: Executing InitTarget()
+T0A7C 028:428.064   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 029:333.037   DAP initialized successfully.
+T0A7C 029:633.692   Can not attach to CPU. Trying connect under reset.
+T0A7C 029:685.053   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 030:589.921   DAP initialized successfully.
+T0A7C 030:890.158   Connecting to CPU via connect under reset failed.
+T0A7C 030:941.012   InitTarget() end - Took 2.51s
+T0A7C 030:941.032   Connect failed. Resetting via Reset pin and trying again.
+T0A7C 031:003.093   InitTarget() start
+T0A7C 031:003.116    J-Link Script File: Executing InitTarget()
+T0A7C 031:003.339   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 031:908.078   DAP initialized successfully.
+T0A7C 032:209.082   Can not attach to CPU. Trying connect under reset.
+T0A7C 032:260.145   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 033:164.770   DAP initialized successfully.
+T0A7C 033:465.699   Connecting to CPU via connect under reset failed.
+T0A7C 033:516.579   InitTarget() end - Took 2.51s
+T0A7C 033:516.606 - 5089.064ms returns -1
+T0A7C 033:516.634 JLINK_GetDeviceFamily
+T0A7C 033:516.641 - 0.007ms returns 0
+T0A7C 033:517.455 JLINK_GetDebugInfo(0x01 = Unknown)
+T0A7C 033:517.650   InitTarget() start
+T0A7C 033:517.661    J-Link Script File: Executing InitTarget()
+T0A7C 033:517.913   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 034:421.743   DAP initialized successfully.
+T0A7C 034:722.045   Can not attach to CPU. Trying connect under reset.
+T0A7C 034:772.569   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 035:676.933   DAP initialized successfully.
+T0A7C 035:978.059   Connecting to CPU via connect under reset failed.
+T0A7C 036:028.978   InitTarget() end - Took 2.51s
+T0A7C 036:029.003   Connect failed. Resetting via Reset pin and trying again.
+T0A7C 036:091.051   InitTarget() start
+T0A7C 036:091.075    J-Link Script File: Executing InitTarget()
+T0A7C 036:091.306   SWD selected. Executing JTAG -> SWD switching sequence.
+T0A7C 036:995.982   DAP initialized successfully.
+T0A7C 037:296.737   Can not attach to CPU. Trying connect under reset.
+T0A7C 037:347.815   SWD selected. Executing JTAG -> SWD switching sequence.

@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "stm32f10x.h": "c",
+            "lcd.h": "c",
+            "sys.h": "c",
+            "delay.h": "c",
+            "segger_rtt.h": "c",
+            "string.h": "c",
+            "usmart.h": "c",
+            "nmea.h": "c",
+            "adc.h": "c",
+            "led.h": "c",
+            "usart3.h": "c",
+            "usart.h": "c",
+            "stdio.h": "c"
+        }
+    },
+    "extensions": {}
+}
